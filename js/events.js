@@ -9,8 +9,8 @@ document.addEventListener("keydown", event => {
     case RIGHT:
       moveLeft();
       break;
-    case PAUSE:
-      pauseGame();
+    case ROTATE:
+      rotate();
       break;
     default:
       break;
